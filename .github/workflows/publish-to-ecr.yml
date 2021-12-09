@@ -2,8 +2,6 @@ name: Publish to ECR
 
 on:
   push:
-    branches:
-      - studio
     paths:
       - 'studio/**'
   workflow_dispatch:
